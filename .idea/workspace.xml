@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18cd80f0-6b1e-454a-9430-70dfcc163ac8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RetrieveData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FeelinGassy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FeelinGassy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/feelinGassy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/feelinGassy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +22,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UmuziOFKykH810i5xeD87z1cFE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -117,38 +117,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575974355541</updated>
-      <workItem from="1575974359089" duration="7397000" />
+      <workItem from="1575974359089" duration="10731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="312" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575980121966">
+    <state x="454" y="312" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575985917759">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="454" y="312" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575980121966" />
+    <state x="454" y="312" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575985917759" />
     <state x="92" y="92" width="1736" height="976" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575975454489">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="92" y="92" width="1736" height="976" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575975454489" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1575981118728">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1575986894233">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575981118728" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1575981118728">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575986894233" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1575986894233">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575981118728" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1575981118728">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575986894233" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1575986894233">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575981118728" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1575981118728">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575986894233" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1575986894233">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575981118728" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1575986894233" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1575978351211">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
