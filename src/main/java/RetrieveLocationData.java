@@ -3,17 +3,22 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.GetObjectRequest;
 import com.amazonaws.services.s3.model.S3Object;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import models.Location;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.List;
 
-public class RetrieveData {
+public class RetrieveLocationData {
 
-    public static void getBucketData(Regions clientRegion, String bucketName, String fileName) throws Exception {
+    public static List<Location> getBucketData(Regions clientRegion, String bucketName, String fileName) throws Exception {
 
         S3Object headerOverrideObject = null;
+
         try {
             AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                     .withRegion(clientRegion)
@@ -21,21 +26,16 @@ public class RetrieveData {
 
             GetObjectRequest getObjectRequestHeaderOverride = new GetObjectRequest(bucketName, fileName);
             headerOverrideObject = s3Client.getObject(getObjectRequestHeaderOverride);
-            displayTextInputStream(headerOverrideObject.getObjectContent());
+
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<Location> sensorLocations = objectMapper.readValue(headerOverrideObject.getObjectContent(), new TypeReference<List<Location>>(){});
+
+            return (sensorLocations);
 
         } finally {
             if (headerOverrideObject != null) {
                 headerOverrideObject.close();
             }
         }
-    }
-
-    private static void displayTextInputStream(InputStream input) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(input));
-        String line;
-        while ((line = reader.readLine()) != null) {
-            System.out.println(line);
-        }
-        System.out.println();
     }
 }
